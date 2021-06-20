@@ -1,0 +1,28 @@
+# These are the files to be ignored by npm
+
+# IDE resource files
+.vscode
+.idea
+
+# MacOs resource files
+.DS_Store
+
+# Node Modules
+node_modules
+
+# Src directory
+src
+# Envrionment files
+*.env
+*.yaml
+
+# Setup files
+jest.config.js
+nodemon.json
+readme.md
+tsconfig.json
+tslint.json
+.github
+.gitignore
+.prettierignore
+.prettierrc

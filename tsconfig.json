@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "types": ["node"],
+        "esModuleInterop": true,
+        "target": "es6",
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types", "node_modules/@types/node"],
+        "lib": ["esnext.asynciterable"],
+        "paths": {
+            "*": ["node_modules/*"]
+        }
+    },
+    "include": ["src/**/*"]
+}

@@ -1,0 +1,24 @@
+# These are the files to be ignored by prettier - file formatter
+
+# IDE resource files
+.vscode
+.idea
+
+# MacOs resource files
+.DS_Store
+
+# Node Modules
+node_modules
+
+# Dist directory
+dist
+
+# Envrionment files
+*.env
+*.yaml
+
+# github actions workflows
+.github
+
+# setup files
+readme.md

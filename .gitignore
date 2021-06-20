@@ -1,0 +1,18 @@
+# These are the files to be ignored by git, these files will not be pushed into Version Control System
+
+# IDE resource files
+.vscode
+.idea
+
+# MacOs resource files
+.DS_Store
+
+# Node Modules
+node_modules
+
+# Dist directory
+dist
+
+# Envrionment files
+*.env
+*.yaml
